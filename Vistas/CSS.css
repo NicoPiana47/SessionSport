@@ -1,0 +1,113 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body {
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    font-weight: bold;
+    display: flex;
+    position:sticky;
+    top:0;
+    justify-content: space-between;
+    background-color: rgb(19,25,33);
+    height: 70px;
+    align-items:center;
+}
+
+footer {
+    background-color: rgb(35,47,62);
+    color: white;
+    text-align: center;
+}
+    footer .Derechos {
+       
+        background-color: rgb(19,26,34);
+        
+        height:25px;
+    }
+    footer .Integrantes {
+        text-align: center;
+    }
+.btn_Header {
+    TEXT-DECORATION: none;
+    color: white;
+    margin-right:10px;
+}
+.svg_iconos {
+    
+    margin-right:5px;
+    width: 25px;
+    height: 25px;
+    -webkit-filter: invert(100%); 
+    filter: invert(100%);
+}
+.top {
+    width: 40px;
+    height: 40px;
+}
+
+.svg_LOGO {
+    width: 250px;
+    height: 150px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.center_flex{
+    display:flex;
+   margin-right:20px;
+    align-items:center;
+}
+.middle {
+    
+    margin-left: 60px;
+    
+    
+}
+.Iniciar_Sesion{
+    margin-left:10px;
+}
+/*LOGIN*/
+.Form {
+    
+    -webkit-border-radius: 10px;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+    .Form.Login {
+        width: 30%;
+        height: 300px;
+    }
+
+
+.Inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.Style_Input {
+    margin-top: 15px;
+    height: 40px;
+    width: 220px;
+    border: none;
+}
+
+
+.I1 {
+    background-color: #EDF2F7;
+}
+
+.I2 {
+    color: white;
+    font-size: larger;
+    background-image: radial-gradient(circle at 102.25% 6.15%, #8890ff 0, #5f77ef 50%, #255fdb 100%);
+    height: 50px;
+}
+/*REGISTER*/
+.Register {
+    width: 50%;
+   
+}

@@ -1,0 +1,9 @@
+C:\SessionSport\DAO\bin\Debug\DAO.dll
+C:\SessionSport\DAO\bin\Debug\DAO.pdb
+C:\SessionSport\DAO\bin\Debug\Entidades.dll
+C:\SessionSport\DAO\bin\Debug\Entidades.pdb
+C:\SessionSport\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+C:\SessionSport\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\SessionSport\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\SessionSport\DAO\obj\Debug\DAO.dll
+C:\SessionSport\DAO\obj\Debug\DAO.pdb

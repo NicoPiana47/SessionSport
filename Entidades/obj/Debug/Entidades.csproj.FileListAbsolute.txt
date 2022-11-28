@@ -1,0 +1,6 @@
+C:\SessionSport\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\SessionSport\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\SessionSport\Entidades\bin\Debug\Entidades.dll
+C:\SessionSport\Entidades\bin\Debug\Entidades.pdb
+C:\SessionSport\Entidades\obj\Debug\Entidades.dll
+C:\SessionSport\Entidades\obj\Debug\Entidades.pdb

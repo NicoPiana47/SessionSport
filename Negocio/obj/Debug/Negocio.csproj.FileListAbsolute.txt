@@ -1,0 +1,11 @@
+C:\SessionSport\Negocio\bin\Debug\Negocio.dll
+C:\SessionSport\Negocio\bin\Debug\Negocio.pdb
+C:\SessionSport\Negocio\bin\Debug\DAO.dll
+C:\SessionSport\Negocio\bin\Debug\Entidades.dll
+C:\SessionSport\Negocio\bin\Debug\DAO.pdb
+C:\SessionSport\Negocio\bin\Debug\Entidades.pdb
+C:\SessionSport\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\SessionSport\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\SessionSport\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\SessionSport\Negocio\obj\Debug\Negocio.dll
+C:\SessionSport\Negocio\obj\Debug\Negocio.pdb

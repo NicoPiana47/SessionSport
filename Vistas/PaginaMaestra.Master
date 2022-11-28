@@ -1,0 +1,165 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaestra.master.cs" Inherits="Vistas.PaginaMaestra" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="./CSS.css"  type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style5 {
+            width: 649px;
+        }
+        .auto-style6 {
+            width: 55px;
+        }
+        .auto-style7 {
+            width: 717px;
+        }
+        .Inicio{
+            display:block;        }
+        </style>
+    
+</head>
+<body>
+
+  
+
+
+    <form id="form1" runat="server">
+
+
+        <header >
+           
+         <a href="Inicio.aspx">
+                 <asp:Image class="svg_LOGO" ID="Image1" runat="server" ImageUrl="~/Íconos/LOGO.png"  />
+
+         </a>
+        
+            <div class="center_flex">
+                  <asp:Image ID="Image3" runat="server" ImageUrl="~/Íconos/Inicio.svg" class="svg_iconos " />
+            <asp:LinkButton style="text-decoration: none;" ID="lbInicio" runat="server" class="btn_Header" PostBackUrl="~/Inicio.aspx" ValidationGroup="btnPagMa">Inicio</asp:LinkButton>
+
+
+               
+            </div>
+
+              
+                    <asp:Panel ID="PanelCarrito" runat="server">
+                     <asp:Image ID="Image4" runat="server" ImageUrl="~/Íconos/Carrito.svg" class="svg_iconos " />
+                        <asp:LinkButton ID="lbCarrito" style="text-decoration: none;" class="btn_Header" runat="server" PostBackUrl="~/Carrito.aspx" ValidationGroup="btnPagMa">Carrito</asp:LinkButton>
+                    </asp:Panel>
+                 
+                
+            
+          
+        
+       
+        
+            
+          
+                    
+             <div class="center_flex">
+                 <asp:Image ID="Estado_Cuenta" runat="server" class="svg_iconos "  />         
+               <asp:LinkButton  class="btn_Header"  ID="lbIniciarSesion0" runat="server" PostBackUrl="~/Pages/Login.aspx" ValidationGroup="btnPagMa">Iniciar Sesión</asp:LinkButton>
+
+                 <asp:Image ID="Registrado" runat="server" class="svg_iconos "  />     
+                 <asp:LinkButton class="btn_Header"   ID="lbRegistrarse" runat="server" PostBackUrl="~/Pages/Register.aspx" OnClick="lbRegistrarse_Click" ValidationGroup="btnPagMa">Registrarse</asp:LinkButton>
+             </div>
+
+          
+               
+            
+                    
+        </header>
+
+
+
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style6">
+                    
+                </td>
+                <td class="auto-style7">
+                    &nbsp;&nbsp;
+                    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+            </tr>
+        </table>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    
+
+
+    <footer>
+        <a href="#top">
+                <asp:Image class="svg_iconos top" ID="Image2" runat="server" ImageUrl="~/Íconos/Top.svg"  />
+
+        </a>
+        <br />
+        <strong>Creado por:</strong></p>
+        <div class="Integrantes">
+            <div>Enzo Conde</div>
+            <div>Lautaro Lomazzo</div>
+            <div>Alan Lewandoski</div>
+            <div>Leopoldo Rodríguez Schiller</div>
+            <div>Nicolás Piana Sampietro</div>
+        </div> 
+        
+
+        <strong> <div class="Derechos">&copy 2022-Session Sport</div></strong> 
+    </footer>
+
+
+
+
+    <p>
+        
+    
+</body>
+</html>
